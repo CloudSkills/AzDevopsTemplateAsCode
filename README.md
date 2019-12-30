@@ -49,7 +49,7 @@ Notice that the **Replace Tokens** and **Terraform** *extensions* are required f
 
 Finally, after the import is successful, we will get the following message. Select **Navigate to Project** to be directed straight to our new project:
 
-![SuccessfulImport](Images\ImportSuccessful.png)
+![SuccessfulImport](/Images/ImportSuccessful.png)
 
 In the next step we will review the innerworkings of the project that we just imported.
 
