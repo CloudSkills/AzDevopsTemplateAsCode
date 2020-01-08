@@ -119,6 +119,10 @@ Next, we need to configure the remaining Terraform tasks with the same Azure ser
 
 ![addazuresubscription2](/Images/addazuresubscription2.png)
 
+Select the **Variables** tab at the top. We will need to rename the **statestorageaccount** variable value. You can set this to anything you want. This because we are storing the Terraform state in an Azure storage account which is required to have a publicly unique name. If we don't rename this, we will get an error during the release pipeline deployment:
+
+![editvariables](/Images/editvariables.png)
+
 Once complete, select **Save** at the top. Now we are ready to deploy our infrastructure. Select **Create Release** and then select **Create** to initiate the release pipeline. We will see a new message in green indicating that the release has been created. Select **Release-1** to view the release process for deploying the ACI resources into our Azure subscription:
 
 ![releasecreated](/Images/releasecreated.png)
